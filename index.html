@@ -3,65 +3,67 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Mobile Store</title>
 </head>
 <body>
     <header>
+        <img src="./images/logo.png" alt="Mobile Store Logo" height="100px" width="100px">
         <div class="head">
-            <h1> Mobile Store</h1>
-        </div class="navbar" id="navbar">
-        <ul>
-            <li><a href="#home">Home</a></li>
-            <li><a href="#About us">About Us</a></li>
-            <li><a href="#home">Contact Us</a></li>
-            <li><a href="#home">Service</a></li>
-        </ul>
-        <div></div>
+            <h1>Mobile Store</h1>
+        </div>
+        <div class="navbar" id="navbar">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+                <li><a href="#service">Service</a></li>
+            </ul>
+        </div>
     </header>
 
     <main>
-        <section class="Home" id="Home">
-            <h1> Welcome to Mobile Store</h1>
-            <form action="Home" method="post"></form>
-            <label for="Phone_Brand">Select Your Phone_Brand</label></label>
-            <select name="Phone_Brand" id="Phone_Brand">
-                <option> iPhone</option>
-                <option> Samsung</option>
-                <option> Oppo</option>
-                <option> Oneplus</option>
-                <option> Vivo</option>
-            </select>
+        <section class="home" id="home">
+            <h1>Welcome to Mobile Store</h1>
+            <form action="" method="post">
+                <label for="Phone_Brand">Select Your Phone Brand</label>
+                <select name="Phone_Brand" id="Phone_Brand">
+                    <option>iPhone</option>
+                    <option>Samsung</option>
+                    <option>Oppo</option>
+                    <option>Oneplus</option>
+                    <option>Vivo</option>
+                </select>
 
-            <br>
-            <label for="user_name"> Enter Your Name </label>
-            <input type="text" name="user_name">
-            <br>
-            <label for="user_phone"> Enter Your Phone </label>
-            <input type="number" name="user_name">
-            <br>
-            <label for="user_DOB"> Enter Your DOB </label>
-            <input type="date" name="user_DOB">
-            <br>
-            <label for="user_age"> Enter Your age </label>
-            <input type="text" name="user_age">
-            <br>
-            <label for="submit">Click to Submit </label>
-            <input type="submit" id="submit">
-            <br>
+                <br>
+                <label for="user_name">Enter Your Name</label>
+                <input type="text" name="user_name" required>
+                <br>
+                <label for="user_phone">Enter Your Phone</label>
+                <input type="number" name="user_phone" required>
+                <br>
+                <label for="user_DOB">Enter Your DOB</label>
+                <input type="date" name="user_DOB" required>
+                <br>
+                <label for="user_age">Enter Your Age</label>
+                <input type="text" name="user_age" required>
+                <br>
+                <input type="submit" id="submit">
+            </form>
         </section>
     </main>
 
-    <section class="About" id="about">
-        <h1>About Our Company </h1>
+    <section class="about" id="about">
+        <h1>About Our Company</h1>
         <p>A good camera phone offers high-resolution sensors, multiple lens options (wide, ultra-wide, telephoto), and advanced software for superior image processing. It excels in low-light performance, delivering sharp, vibrant photos even in challenging conditions. Features like optical image stabilization and AI enhancements also make a noticeable difference in both photos and videos.</p>
     </section>
-    <section class="Contact" id="Contact">
+    
+    <section class="contact" id="contact">
         <h1>Contact Us</h1>
-        <p> Bangalore, Karnataka, India </p>
+        <p>Bangalore, Karnataka, India</p>
     </section>
 
-    <section class="Service" id="Service">
-        <h1> Services Provided By Us</h1>
+    <section class="service" id="service">
+        <h1>Services Provided By Us</h1>
         <ol>
             <li>New Phone</li>
             <li>Phone Repair</li>
